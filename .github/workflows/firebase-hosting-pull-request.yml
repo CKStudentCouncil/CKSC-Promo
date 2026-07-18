@@ -13,10 +13,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: yarn install --frozen-lockfile
-      - run: yarn build
+      - run: npm ci && npm run build
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: ${{ secrets.GITHUB_TOKEN }}
-          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_APPOINTED_STORE_OFFICIAL }}
-          projectId: appointed-store-official
+          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_CK_TFG_PROMO }}
+          projectId: ck-tfg-promo
