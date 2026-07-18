@@ -48,7 +48,7 @@
           <div class="guideline-item">
             <span class="guideline-number">1.</span>
             <span class="guideline-text"
-              >特約店家將於店家明顯處，張貼四校特約專用貼紙，以供辨識。</span
+              >特約店家將於店家明顯處，張貼建北特約專用貼紙，以供辨識。</span
             >
           </div>
 
