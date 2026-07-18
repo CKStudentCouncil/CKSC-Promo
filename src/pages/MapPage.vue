@@ -3,7 +3,7 @@
     <div class="q-pa-md q-pt-xl q-pb-none flex flex-center column">
       <div class="text-h4 text-center q-mt-md">
         <span v-if="$q.screen.gt.xs" class="q-pl-sm">
-          <strong>建北中成四校聯合特約商店地圖</strong>
+          <strong>建北特約商店地圖</strong>
         </span>
         <span v-else><strong>特約地圖</strong></span>
       </div>

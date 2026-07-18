@@ -4,7 +4,7 @@
       <q-card-section class="column items-center">
         <q-img src="../../public/icons/logo.png" alt="logo" class="LogoStyle" fit="contain" />
         <br />
-        <h4 class="text-center"><strong>建北中成四校聯合特約商店</strong></h4>
+        <h4 class="text-center"><strong>建北特約商店</strong></h4>
       </q-card-section>
 
       <q-separator spaced />
@@ -12,7 +12,7 @@
       <q-card-section>
         <div class="text-h6 text-center q-mt-md">
           <br />
-          <strong>如有任何問題，歡迎聯繫各校班代聯</strong>
+          <strong>如有任何問題，歡迎聯繫建北班聯</strong>
           <br /><br />
         </div>
         <div class="row items-center">
@@ -41,6 +41,7 @@
             <h5 class="text-sm"><strong>北一班聯會</strong></h5>
           </div>
           <br />
+          <!--
           <div class="col-6 text-center">
             <q-btn flat round size="xl" color="grey-2" class="q-pa-none" @click="goTozsca">
               <q-img
@@ -65,7 +66,7 @@
             <br />
             <h5 class="text-sm"><strong>成功代聯會</strong></h5>
           </div>
-        </div>
+        --></div>
       </q-card-section>
     </q-card>
   </q-page>
@@ -78,14 +79,14 @@ export default {
       window.open('https://www.instagram.com/cksc79th/', '_blank');
     },
     goTotfgsc() {
-      window.open('https://www.instagram.com/tfgsc85_/', '_blank');
+      window.open('https://www.instagram.com/tfgsc86/', '_blank');
     },
-    goTozsca() {
+    /*goTozsca() {
       window.open('https://www.instagram.com/zsca37th/', '_blank');
     },
     goTocgcra() {
       window.open('https://www.instagram.com/cgcra70_official/', '_blank');
-    },
+    },*/
   },
 };
 </script>

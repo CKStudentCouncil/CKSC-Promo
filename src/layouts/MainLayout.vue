@@ -16,10 +16,10 @@
             <img alt="favicon" src="icons/logo.png" />
           </q-avatar>
           <span v-if="$q.screen.gt.xs" class="brand-text">
-            <span class="brand-main">建北中成四校聯合特約商店</span>
+            <span class="brand-main">建北特約商店</span>
           </span>
           <span v-else class="brand-text">
-            <span class="brand-main">四校聯合特約商店</span>
+            <span class="brand-main">建北特約商店</span>
           </span>
         </q-toolbar-title>
         <q-btn
@@ -68,8 +68,8 @@ const linksList: EssentialLinkProps[] = [
   { title: '地圖', icon: 'map', link: '/map' },
   { title: '特約本', icon: 'book', link: '/book' },
   { title: '建中', icon: 'school', link: '/ckhs' },
-  { title: '中山', icon: 'library_books', link: '/zsgh' },
-  { title: '成功', icon: 'local_library', link: '/cghs' },
+  //{ title: '中山', icon: 'library_books', link: '/zsgh' },
+  //{ title: '成功', icon: 'local_library', link: '/cghs' },
   { title: '北車', icon: 'train', link: '/taipeimainstation' },
   { title: '西門', icon: 'store', link: '/ximen' },
   { title: '公館', icon: 'local_mall', link: '/gongguan' },

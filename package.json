@@ -1,8 +1,8 @@
 {
-  "name": "appointed-store-official",
+  "name": "ck-tfg-partner-stores",
   "version": "0.0.1",
-  "description": "A platform about appointed store for CKHS, TFG, ZSGH, CGSH students and teachers",
-  "productName": "四校聯合特約商店",
+  "description": "A platform that aggregates information on all partner stores for CKHS and TFG students and teachers.",
+  "productName": "建北聯合特約商店",
   "author": "ChrisSun0731 <chris20090731@gmail.com>",
   "type": "module",
   "private": true,

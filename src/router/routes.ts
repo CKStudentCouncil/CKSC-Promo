@@ -20,8 +20,8 @@ const routes: RouteRecordRaw[] = [
     path: '/ckhs',
     component: () => import('layouts/MainLayout.vue'),
     children: [{ path: '', component: () => import('../pages/StorePage/CKHSPage.vue') }],
-  },
-  {
+  },*/
+  /*{
     path: '/zsgh',
     component: () => import('layouts/MainLayout.vue'),
     children: [{ path: '', component: () => import('../pages/StorePage/ZSGHPage.vue') }],
@@ -30,8 +30,8 @@ const routes: RouteRecordRaw[] = [
     path: '/cghs',
     component: () => import('layouts/MainLayout.vue'),
     children: [{ path: '', component: () => import('../pages/StorePage/CGHSPage.vue') }],
-  },
-  {
+  },*/
+  /*{
     path: '/taipeimainstation',
     component: () => import('layouts/MainLayout.vue'),
     children: [
@@ -73,7 +73,7 @@ const routes: RouteRecordRaw[] = [
     component: () => import('layouts/MainLayout.vue'),
     children: [{ path: '', component: () => import('../pages/ComingSoonPage.vue') }],
   },
-  {
+  /*{
     path: '/zsgh',
     component: () => import('layouts/MainLayout.vue'),
     children: [{ path: '', component: () => import('../pages/ComingSoonPage.vue') }],
@@ -82,7 +82,7 @@ const routes: RouteRecordRaw[] = [
     path: '/cghs',
     component: () => import('layouts/MainLayout.vue'),
     children: [{ path: '', component: () => import('../pages/ComingSoonPage.vue') }],
-  },
+  },*/
   {
     path: '/taipeimainstation',
     component: () => import('layouts/MainLayout.vue'),

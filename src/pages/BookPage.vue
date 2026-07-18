@@ -4,7 +4,7 @@
       <div class="text-h4 text-center q-mt-md">
         <br />
         <span v-if="$q.screen.gt.xs" class="q-pl-sm">
-          <strong>建北中成四校聯合特約商店特約本</strong>
+          <strong>建北特約商店特約本</strong>
         </span>
         <span v-else><strong>特約本</strong></span>
         <br />
