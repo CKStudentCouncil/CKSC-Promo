@@ -22,7 +22,7 @@
           <strong>關於建北特約</strong>
         </div>
         <div class="info text-center q-mb-md" style="font-size: 13px">CKSC X TFGSC 2026~2027</div>
-        <div class="text-body1 text-center">
+        <div class="text-body1 text-left">
           經過建北班聯全體夥伴們的努力、學長姐們的幫助，以及特約店家的共同合作，促成了此建北特約的誕生，感謝同學們一直以來的支持。
           <br />
           今年建北班聯繼續在各商圈拜訪店家，努力爭取店家和我們續約，同時也竭力與許多新店家簽訂團體及外送優惠，為師生爭取權益。

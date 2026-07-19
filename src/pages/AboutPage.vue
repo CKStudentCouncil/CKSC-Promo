@@ -16,15 +16,15 @@
       <q-separator spaced />
 
       <q-card-section>
-        <div class="q-pb-xs text-center">
+        <div class="q-pb-xs text-left">
           此平台係由建國中學班聯會80屆上主席暨班級代表大會81屆下議長暨79屆下副議長孫逢邦所製。
           <br />
-          其目標在於推廣建北特約商店，以利班代聯會員快速查詢相關內容。
+          其目標在於推廣建北特約商店，以利建北兩校師生快速查詢相關內容。
           <br />
           然此平台仍於開發階段，尚有不足之處，希望各界能提供意見與建議，以利改進。
         </div>
         <br />
-        <div class="q-pb-xs text-center">
+        <div class="q-pb-xs text-left">
           聯絡方式：
           <br />
           作者信箱：chris20090731@gmail.com
