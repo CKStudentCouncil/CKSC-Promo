@@ -12,7 +12,7 @@
       <q-card-section>
         <div class="text-h6 text-center q-mt-md">
           <br />
-          <strong>如有任何問題，歡迎聯繫建北班聯</strong>
+          <strong>如有任何問題，歡迎聯繫我們</strong>
           <br /><br />
         </div>
         <div class="row items-center">
@@ -76,7 +76,7 @@
 export default {
   methods: {
     goTocksc() {
-      window.open('https://www.instagram.com/cksc79th/', '_blank');
+      window.open('https://www.instagram.com/cksc.80th/', '_blank');
     },
     goTotfgsc() {
       window.open('https://www.instagram.com/tfgsc86/', '_blank');
