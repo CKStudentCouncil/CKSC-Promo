@@ -76,7 +76,7 @@
 export default {
   methods: {
     goTocksc() {
-      window.open('https://www.instagram.com/cksc.80th/', '_blank');
+      window.open('https://www.instagram.com/cksc.81th/', '_blank');
     },
     goTotfgsc() {
       window.open('https://www.instagram.com/tfgsc86/', '_blank');
