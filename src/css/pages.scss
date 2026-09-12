@@ -260,19 +260,21 @@ body,
   font-weight: 600;
 }
 
+.stores-grid {
+  padding: 0 1rem;
+}
+
 @media (min-width: 769px) {
   .stores-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     gap: 1rem;
   }
 
   .store-card {
     cursor: pointer;
     transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-    max-width: 700px;
     width: 100%;
-    margin: 0 auto;
 
     &:hover {
       transform: translateY(-2px);
