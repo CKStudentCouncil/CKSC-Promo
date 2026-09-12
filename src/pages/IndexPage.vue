@@ -46,14 +46,14 @@
 
         <div class="guidelines-content">
           <div class="guideline-item">
-            <span class="guideline-number">1.</span>
+            <span class="guideline-number">1</span>
             <span class="guideline-text"
               >特約店家將於店家明顯處，張貼建北特約專用貼紙，以供辨識。</span
             >
           </div>
 
           <div class="guideline-item">
-            <span class="guideline-number">2.</span>
+            <span class="guideline-number">2</span>
             <span class="guideline-text"
               >使用特約時，請記得出示學生證或教師證，店家得以拒絕僅穿著制服者。</span
             >
