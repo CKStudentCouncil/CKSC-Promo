@@ -6,32 +6,22 @@ const routes: RouteRecordRaw[] = [
     component: () => import('layouts/MainLayout.vue'),
     children: [{ path: '', component: () => import('pages/IndexPage.vue') }],
   },
-  /*{
+  {
     path: '/map',
     component: () => import('layouts/MainLayout.vue'),
-    children: [{ path: '', component: () => import('pages/MapPage.vue') }],
+    children: [{ path: '', component: () => import('pages/ComingSoonPage.vue') }],
   },
   {
     path: '/book',
     component: () => import('layouts/MainLayout.vue'),
-    children: [{ path: '', component: () => import('pages/BookPage.vue') }],
+    children: [{ path: '', component: () => import('pages/ComingSoonPage.vue') }],
   },
   {
     path: '/ckhs',
     component: () => import('layouts/MainLayout.vue'),
     children: [{ path: '', component: () => import('../pages/StorePage/CKHSPage.vue') }],
-  },*/
-  /*{
-    path: '/zsgh',
-    component: () => import('layouts/MainLayout.vue'),
-    children: [{ path: '', component: () => import('../pages/StorePage/ZSGHPage.vue') }],
   },
   {
-    path: '/cghs',
-    component: () => import('layouts/MainLayout.vue'),
-    children: [{ path: '', component: () => import('../pages/StorePage/CGHSPage.vue') }],
-  },*/
-  /*{
     path: '/taipeimainstation',
     component: () => import('layouts/MainLayout.vue'),
     children: [
@@ -57,56 +47,6 @@ const routes: RouteRecordRaw[] = [
     path: '/other',
     component: () => import('layouts/MainLayout.vue'),
     children: [{ path: '', component: () => import('../pages/StorePage/OtherPage.vue') }],
-  },*/
-  {
-    path: '/map',
-    component: () => import('layouts/MainLayout.vue'),
-    children: [{ path: '', component: () => import('pages/ComingSoonPage.vue') }],
-  },
-  {
-    path: '/book',
-    component: () => import('layouts/MainLayout.vue'),
-    children: [{ path: '', component: () => import('pages/ComingSoonPage.vue') }],
-  },
-  {
-    path: '/ckhs',
-    component: () => import('layouts/MainLayout.vue'),
-    children: [{ path: '', component: () => import('../pages/ComingSoonPage.vue') }],
-  },
-  /*{
-    path: '/zsgh',
-    component: () => import('layouts/MainLayout.vue'),
-    children: [{ path: '', component: () => import('../pages/ComingSoonPage.vue') }],
-  },
-  {
-    path: '/cghs',
-    component: () => import('layouts/MainLayout.vue'),
-    children: [{ path: '', component: () => import('../pages/ComingSoonPage.vue') }],
-  },*/
-  {
-    path: '/taipeimainstation',
-    component: () => import('layouts/MainLayout.vue'),
-    children: [{ path: '', component: () => import('../pages/ComingSoonPage.vue') }],
-  },
-  {
-    path: '/ximen',
-    component: () => import('layouts/MainLayout.vue'),
-    children: [{ path: '', component: () => import('../pages/ComingSoonPage.vue') }],
-  },
-  {
-    path: '/gongguan',
-    component: () => import('layouts/MainLayout.vue'),
-    children: [{ path: '', component: () => import('../pages/ComingSoonPage.vue') }],
-  },
-  {
-    path: '/guting',
-    component: () => import('layouts/MainLayout.vue'),
-    children: [{ path: '', component: () => import('../pages/ComingSoonPage.vue') }],
-  },
-  {
-    path: '/other',
-    component: () => import('layouts/MainLayout.vue'),
-    children: [{ path: '', component: () => import('../pages/ComingSoonPage.vue') }],
   },
   {
     path: '/contact',

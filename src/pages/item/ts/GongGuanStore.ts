@@ -11,36 +11,15 @@ export interface Store {
 
 export const stores: Store[] = [
   {
-    name: '得正#台北公館計劃',
-    address: '100台北市中正區羅斯福路三段316巷10-2號',
-    phone: '(02)2368-3130',
-    category: '飲料',
-    discount: 'unknown',
+    name: '人性空間 總店',
+    address: '100台北市中正區羅斯福路三段286巷4弄1-1號',
+    phone: '0938 957 211',
+    category: '其他',
+    discount: `1. 平時享有最低價160元
+2. 如有使用投影機為170元`,
     mapUrl:
-      'https://www.google.com/maps/search/?api=1&query=得正+台北公館計劃+台北市中正區羅斯福路三段316巷10-2號',
-    concurrent: true,
-    rule: '',
-  },
-  {
-    name: '可不可熟成紅茶 台北公館店',
-    address: '100台北市中正區汀州路三段174號',
-    phone: '(02)2368-0260',
-    category: '飲料',
-    discount: 'unknown',
-    mapUrl:
-      'https://www.google.com/maps/search/?api=1&query=可不可熟成紅茶+台北公館店+台北市中正區汀州路三段174號',
-    concurrent: true,
-    rule: '',
-  },
-  {
-    name: '迷客夏Milksha 臺北公館',
-    address: '10090台北市中正區羅斯福路三段316巷10之2號1樓',
-    phone: '(02)2368-7707',
-    category: '飲料',
-    discount: 'unknown',
-    mapUrl:
-      'https://www.google.com/maps/search/?api=1&query=迷客夏Milksha+臺北公館+台北市中正區羅斯福路三段316巷10之2號1樓',
-    concurrent: true,
+      'google.com/maps/place/Human+Space+Roosevelt/@25.0180493,121.5327412,17z/data=!3m1!5s0x3442a98b90be04df:0x6e84e240a4fe45a2!4m10!1m2!2m1!1z5Lq65oCn56m66ZaTIOe4veW6lw!3m6!1s0x3442a98b9b1e8b3f:0xfc84591eb30f101d!8m2!3d25.0158629!4d121.5321137!15sChPkurrmgKfnqbrplpMg57i95bqXWhciFeS6uuaApyDnqbrplpMg57i9IOW6l5IBFmZ1bmN0aW9uX3Jvb21fZmFjaWxpdHmaASRDaGREU1VoTk1HOW5TMFZKUTBGblNVUmxiVmxtYTJsM1JSQUKqAUsKCy9nLzF0bDdsZHRtEAEyHxABIhvg7HjXiSWC3BpQbj8e9Hkn5PuN5Z68_YQtZgUyGRACIhXkurrmgKcg56m66ZaTIOe4vSDlupfgAQD6AQQIABAX!16s%2Fg%2F1tl7ldtm?entry=ttu&g_ep=EgoyMDI1MTAwMS4wIKXMDSoASAFQAw%3D%3D',
+    concurrent: false,
     rule: '',
   },
 ];
@@ -50,7 +29,7 @@ export const getStoresByCategory = (category: string): Store[] => {
 };
 
 export const getOtherStores = (): Store[] => {
-  const otherCategories = ['其他', '運動', '服飾'];
+  const otherCategories = ['其他', '運動', '服飾', '音樂'];
   return stores.filter((store) => otherCategories.includes(store.category));
 };
 

@@ -68,8 +68,6 @@ const linksList: EssentialLinkProps[] = [
   { title: '地圖', icon: 'map', link: '/map' },
   { title: '特約本', icon: 'book', link: '/book' },
   { title: '建中', icon: 'school', link: '/ckhs' },
-  //{ title: '中山', icon: 'library_books', link: '/zsgh' },
-  //{ title: '成功', icon: 'local_library', link: '/cghs' },
   { title: '北車', icon: 'train', link: '/taipeimainstation' },
   { title: '西門', icon: 'store', link: '/ximen' },
   { title: '公館', icon: 'local_mall', link: '/gongguan' },

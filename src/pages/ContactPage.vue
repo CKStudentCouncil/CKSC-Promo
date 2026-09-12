@@ -41,32 +41,27 @@
             <h5 class="text-sm"><strong>北一班聯會</strong></h5>
           </div>
           <br />
-          <!--
-          <div class="col-6 text-center">
-            <q-btn flat round size="xl" color="grey-2" class="q-pa-none" @click="goTozsca">
+        </div>
+
+        <div class="text-h6 text-center q-mt-lg">
+          <br />
+          <strong>建北聯合特約商店</strong>
+          <br /><br />
+        </div>
+        <div class="row items-center justify-center">
+          <div class="text-center">
+            <q-btn flat round size="xl" color="grey-2" class="q-pa-none" @click="goToPromoIg">
               <q-img
-                src="../../public/icons/zscalogo.png"
-                alt="zsca"
+                src="../../public/icons/logo.png"
+                alt="cktfg_partnerstore"
                 style="width: 150px; height: 150px"
                 fit="contain"
               />
             </q-btn>
             <br />
-            <h5 class="text-sm"><strong>中山班聯會</strong></h5>
+            <h5 class="text-sm"><strong>@cktfg_partnerstore</strong></h5>
           </div>
-          <div class="col-6 text-center">
-            <q-btn flat round size="xl" color="grey-2" class="q-pa-none" @click="goTocgcra">
-              <q-img
-                src="../../public/icons/cgcralogo.png"
-                alt="cksc"
-                style="width: 150px; height: 150px"
-                fit="contain"
-              />
-            </q-btn>
-            <br />
-            <h5 class="text-sm"><strong>成功代聯會</strong></h5>
-          </div>
-        --></div>
+        </div>
       </q-card-section>
     </q-card>
   </q-page>
@@ -81,12 +76,9 @@ export default {
     goTotfgsc() {
       window.open('https://www.instagram.com/tfgsc86/', '_blank');
     },
-    /*goTozsca() {
-      window.open('https://www.instagram.com/zsca37th/', '_blank');
+    goToPromoIg() {
+      window.open('https://www.instagram.com/cktfg_partnerstore/', '_blank');
     },
-    goTocgcra() {
-      window.open('https://www.instagram.com/cgcra70_official/', '_blank');
-    },*/
   },
 };
 </script>
