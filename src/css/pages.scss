@@ -214,17 +214,28 @@ body,
 }
 
 .stores-container {
+  --stores-container-padding: 1rem;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  padding: var(--stores-container-padding);
+  // 同心圓角：外框圓角 = 內部卡片圓角 (18px) + padding
+  border-radius: calc(18px + var(--stores-container-padding));
+  background: transparent;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
-.category-section {
-  margin-bottom: 2rem;
+// 沒有商店的分類只會留下 v-if 註解節點，隱藏以免影響間距
+.category-section:empty {
+  display: none;
 }
 
-.category-header {
+.stores-container .category-header {
   display: flex;
   align-items: center;
   gap: 1rem;
+  padding: 0 0 1rem;
 }
 
 .category-icon-wrapper {
@@ -261,7 +272,7 @@ body,
 }
 
 .stores-grid {
-  padding: 0 1rem;
+  padding: 0;
 }
 
 @media (min-width: 769px) {
@@ -290,6 +301,10 @@ body,
   .store-card {
     max-width: 100%;
     margin-bottom: 1rem;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
   }
 }
 
