@@ -43,22 +43,6 @@ export const stores: Store[] = [
     rule: '',
   },
   {
-    name: '引好創藝有限公司',
-    address: '台北市萬華區成都路67號4樓',
-    phone: '02-2370-7070',
-    category: '服飾',
-    discount: `1. T-shirt製作滿50件送圖案一版一色
-2. T-shirt製作滿45件送44mm小胸章，一件一枚
-3. 製作各式印刷品排版設計免費
-4. 製作300本海報送300張A5雙面彩色DM
-5. 製作手冊200本以上，贈送同數量海報及卡片
-6. 製作金額500元以上，贈送旗幟或掛簾`,
-    mapUrl:
-      'https://www.google.com/maps/search/?api=1&query=引好創藝有限公司+台北市萬華區成都路67號4樓',
-    concurrent: false,
-    rule: '',
-  },
-  {
     name: '艋舺雞排Monga西門店지파이',
     address: '108台北市萬華區中華路一段110號',
     phone: '0223-813-938',
