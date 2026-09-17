@@ -59,18 +59,6 @@ export const stores: Store[] = [
     rule: '',
   },
   {
-    name: '北車0.3熱門音樂中心',
-    address: '台北市中正區忠孝西路一段7號1樓',
-    phone: '02-2383-1780',
-    category: '音樂',
-    discount: `1. 大練團室租用2小時以上（含）每小時折50元
-2. 購買器材享九折優惠`,
-    mapUrl:
-      'https://www.google.com/maps/search/?api=1&query=北車0.3熱門音樂中心+台北市中正區忠孝西路一段7號1樓',
-    concurrent: false,
-    rule: '',
-  },
-  {
     name: '服麗社團禮服',
     address: '台北市中正區懷寧街17號5樓',
     phone: '02-2331-5750',
