@@ -33,16 +33,8 @@ const routes: RouteRecordRaw[] = [
     component: () => import('layouts/MainLayout.vue'),
     children: [{ path: '', component: () => import('../pages/StorePage/XimenPage.vue') }],
   },
-  {
-    path: '/gongguan',
-    component: () => import('layouts/MainLayout.vue'),
-    children: [{ path: '', component: () => import('../pages/StorePage/GongGuanPage.vue') }],
-  },
-  {
-    path: '/guting',
-    component: () => import('layouts/MainLayout.vue'),
-    children: [{ path: '', component: () => import('../pages/StorePage/GuTingPage.vue') }],
-  },
+  { path: '/gongguan', redirect: '/other' },
+  { path: '/guting', redirect: '/other' },
   {
     path: '/other',
     component: () => import('layouts/MainLayout.vue'),
