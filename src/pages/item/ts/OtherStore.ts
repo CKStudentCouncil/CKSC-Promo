@@ -34,6 +34,17 @@ export const stores: Store[] = [
     concurrent: true,
     rule: '',
   },
+  {
+    name: '齊可校園製作', 
+    address: '台中市南屯區文心路一段378號16樓之3', 
+    phone: '(04)2310-0889', 
+    category: '服務', 
+    discount: `1.製圖免費
+2.所有品項85折
+3.送貨到校免運費`, 
+    concurrent: false, 
+    rule: ''
+  }
 ];
 
 export const getStoresByCategory = (category: string): Store[] => {
