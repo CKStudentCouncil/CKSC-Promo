@@ -84,17 +84,7 @@ export const stores: Store[] = [
     mapUrl: 'https://www.google.com/maps/search/?api=1&query=CoCo都可+台北市中正區寧波西街83-2號',
     concurrent: false,
     rule: '外送僅建中',
-  },
-  {
-    name: '有煎餃子館 北市寧波館',
-    address: '台北市中正區寧波西街100號1樓',
-    phone: '02-2332-5085',
-    category: '早午餐',
-    discount: '任十顆餃子不限口味搭配小菜/飲料/湯品折扣5元',
-    mapUrl: 'https://www.google.com/maps/search/?api=1&query=有煎餃子館+台北市中正區寧波西街100號',
-    concurrent: true,
-    rule: '',
-  },
+},
   {
     name: '豪季水餃專賣店 牯嶺店',
     address: '台北市中正區泉州街9號',
