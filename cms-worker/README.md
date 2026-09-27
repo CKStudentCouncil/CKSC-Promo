@@ -30,7 +30,7 @@
 
 1.  Cloudflare Dashboard → Zero Trust → Access → Applications → Add an application
 2.  選 **Self-hosted**
-3.  Application domain：`cksc-promo-cms-admin.<your-subdomain>.workers.dev`
+3.  Application domain：`cksc-promo-cms-admin.ckscitdivision.workers.dev`
 4.  新增 Policy：允許可以編輯的人的 Google 帳號 / Email
 5.  記下這個 **Application Audience (AUD) tag**（用於 Worker 的 `CF_AUD`）
 
@@ -57,7 +57,7 @@ backend:
   name: github
   repo: CKStudentCouncil/CKSC-Promo
   branch: main
-  base_url: https://cksc-promo-cms-admin.<your-subdomain>.workers.dev/
+  base_url: https://cksc-promo-cms-admin.ckscitdivision.workers.dev/
 ```
 
 ## 使用

@@ -2,7 +2,7 @@ backend:
   name: github
   repo: CKStudentCouncil/CKSC-Promo
   branch: main
-  base_url: https://cksc-promo-cms-admin.dcdcdc1031.workers.dev/
+  base_url: https://cksc-promo-cms-admin.ckscitdivision.workers.dev/
 
 # 目前沒有圖片欄位，但 Decap 要求一定要設定
 media_folder: "public/uploads"
