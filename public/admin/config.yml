@@ -1,0 +1,60 @@
+backend:
+  name: github
+  repo: CKStudentCouncil/CKSC-Promo
+  branch: main
+  base_url: https://cksc-promo-cms-admin.dcdcdc1031.workers.dev/
+
+# 目前沒有圖片欄位，但 Decap 要求一定要設定
+media_folder: "public/uploads"
+public_folder: "/uploads"
+
+locale: "zh_Hant"
+
+# 四個地區共用的店家欄位
+store_fields: &store_fields
+  - { label: "店名", name: "name", widget: "string" }
+  - { label: "地址", name: "address", widget: "string" }
+  - { label: "電話", name: "phone", widget: "string" }
+  - label: "分類"
+    name: "category"
+    widget: "select"
+    options: ["熱食", "早午餐", "速食", "飲料", "甜點", "點心", "購物", "服務", "運動", "服飾", "音樂", "其他"]
+    hint: "購物、服務、運動、服飾、音樂、其他 都會顯示在「其他類」"
+  - { label: "優惠內容", name: "discount", widget: "text" }
+  - { label: "可與其他優惠並用", name: "concurrent", widget: "boolean", default: false }
+  - { label: "其他條款（選填）", name: "rule", widget: "text", required: false, default: "" }
+  - label: "Google 地圖連結（選填）"
+    name: "mapUrl"
+    widget: "string"
+    required: false
+    hint: "留空會自動用「店名 + 地址」產生 Google 地圖搜尋連結"
+
+store_list: &store_list
+  label: "店家"
+  name: "stores"
+  widget: "list"
+  summary: "{{fields.name}}（{{fields.category}}）"
+  fields: *store_fields
+
+collections:
+  - name: "stores"
+    label: "特約商店"
+    editor:
+      preview: false
+    files:
+      - name: "ckhs"
+        label: "建中周邊"
+        file: "src/content/stores/ckhs.json"
+        fields: [*store_list]
+      - name: "station"
+        label: "台北車站"
+        file: "src/content/stores/station.json"
+        fields: [*store_list]
+      - name: "ximen"
+        label: "西門町"
+        file: "src/content/stores/ximen.json"
+        fields: [*store_list]
+      - name: "other"
+        label: "其他"
+        file: "src/content/stores/other.json"
+        fields: [*store_list]

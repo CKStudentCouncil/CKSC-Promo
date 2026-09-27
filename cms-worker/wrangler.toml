@@ -1,0 +1,12 @@
+name = "cksc-promo-cms-admin"
+main = "src/index.ts"
+compatibility_date = "2024-01-01"
+
+[vars]
+ALLOWED_ORIGINS = "http://localhost:9000, http://127.0.0.1:9000, https://cktfgpromo.cksc.tw, https://ck-tfg-promo.web.app, https://ck-tfg-promo.firebaseapp.com"
+CF_TEAM_NAME = "doongchen"
+
+[observability]
+[observability.logs]
+enabled = true
+invocation_logs = true
