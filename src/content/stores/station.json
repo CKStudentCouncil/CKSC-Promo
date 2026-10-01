@@ -62,6 +62,15 @@
       "discount": "店內全品項飲品60元以下每杯折5元，60元以上每杯折10元",
       "concurrent": false,
       "rule": "限自取，外送不適用"
+    },
+    {
+      "name": "Bonchon Chicken 本村韓食炸雞（重慶南店）",
+      "address": "台北市中正區重慶南路一段121號",
+      "phone": "",
+      "category": "熱食",
+      "discount": "結帳總金額享9折",
+      "concurrent": false,
+      "rule": "限內用及外帶，不得跨店使用；內用10%清潔費依原價計算，恕不折扣"
     }
   ]
 }
